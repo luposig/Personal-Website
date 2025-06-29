@@ -1,0 +1,133 @@
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 75px;
+}
+
+.footer {
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 100%;
+    border: 15px solid black;
+    bottom: -10px;
+    right: 0px;
+    left: -10px;
+    height: 75px;
+    z-index: 10000;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-black {
+    color: #000000;
+}
+
+.title-position-left {
+    position: fixed;
+    left: 5%;
+    top: 15px;
+    text-align: center;
+}
+
+.title-position-right {
+    position: relative;
+    right: 10%;
+    top: 25px;
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.link-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 10000;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    padding-right: 100px;
+    font-weight: bolder;
+}
+
+.signature {
+    display: flex;
+    padding: 4px 20px;
+    font-size: 24px;
+    justify-content: flex-end;
+    font-weight: bolder;
+    color: White;
+    gap: 750px;
+}
+
+.logo {
+    display: flex;
+    padding: 25px 50px;
+}
+
+.body {
+    position: relative;
+    padding: 80px;
+    padding-left: 25%;
+    font-size: 18px;
+}
+
+.left_links {
+    position: fixed;
+    left: 0px;
+    right: 78%;
+    top: 105px;
+    bottom: 10px;
+    background-color: yellow;
+    border-color: black;
+    border: 2px solid black;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    z-index: 10000;
+}
+
+.limited-img {
+    max-width: 500px;
+    height: auto;
+    float: right;
+    border: 4px solid green;
+}
+
+.tableau-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+.image-with-caption {
+    max-width: 500px;
+    height: auto;
+    float: right;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.image-with-caption img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-with-caption figcaption {
+    font-size: 0.9rem;
+    color: #000000;
+    margin-top: 0.3rem;
+    font-style: italic;
+}
